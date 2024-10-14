@@ -1,0 +1,25 @@
+/* 
+  Localizable.strings
+  ClearScoreAssessment
+
+  Created by Ashish Patel on 12/27/22.
+  
+*/
+
+// App name
+"appName.JPM" = "Planets";
+
+// App errors
+"app.invalidURL.error" = "Invalid URL.";
+"app.noInternet.error" = "Internet not available.";
+"app.invalidResponse.error" = "Invalid response.";
+"app.requestTimeOut.error" = "Request time out.";
+"app.fileNotFound.error" = "Unable to find file.";
+"app.unknownError.error" = "Unknown error.";
+
+// Dashbord
+"dashboard.title" = "Planets";
+
+// Alert
+"alert.Error" = "Error";
+"alert.okButton" = "OK";
