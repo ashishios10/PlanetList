@@ -7,15 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		090F057D2CCFA94E00262FE0 /* Networking in Frameworks */ = {isa = PBXBuildFile; productRef = 090F057C2CCFA94E00262FE0 /* Networking */; };
+		090F05A02CCFADA900262FE0 /* Network in Resources */ = {isa = PBXBuildFile; fileRef = 090F059D2CCFADA900262FE0 /* Network */; };
+		090F05A12CCFADA900262FE0 /* Models in Resources */ = {isa = PBXBuildFile; fileRef = 090F059E2CCFADA900262FE0 /* Models */; };
+		090F05A22CCFADA900262FE0 /* Utilities in Resources */ = {isa = PBXBuildFile; fileRef = 090F059F2CCFADA900262FE0 /* Utilities */; };
 		09ABD6D82CB870A900960B44 /* PlanetListApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09ABD6D72CB870A900960B44 /* PlanetListApp.swift */; };
 		09ABD6E12CB870AA00960B44 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09ABD6E02CB870AA00960B44 /* Persistence.swift */; };
-		09ABD7552CB93ED400960B44 /* Networking in Frameworks */ = {isa = PBXBuildFile; productRef = 09ABD7542CB93ED400960B44 /* Networking */; };
 		09ABD7572CB93ED400960B44 /* Utilities in Frameworks */ = {isa = PBXBuildFile; productRef = 09ABD7562CB93ED400960B44 /* Utilities */; };
 		09ABD75B2CB93F0F00960B44 /* Models in Frameworks */ = {isa = PBXBuildFile; productRef = 09ABD75A2CB93F0F00960B44 /* Models */; };
 		09ABD7642CB95CC300960B44 /* PlanetRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09ABD7632CB95CC300960B44 /* PlanetRepository.swift */; };
-		09ABD7692CB95FE700960B44 /* Networking in Resources */ = {isa = PBXBuildFile; fileRef = 09ABD7662CB95FE700960B44 /* Networking */; };
-		09ABD76A2CB95FE700960B44 /* Models in Resources */ = {isa = PBXBuildFile; fileRef = 09ABD7672CB95FE700960B44 /* Models */; };
-		09ABD76B2CB95FE700960B44 /* Utilities in Resources */ = {isa = PBXBuildFile; fileRef = 09ABD7682CB95FE700960B44 /* Utilities */; };
 		09ABD76D2CB9607D00960B44 /* PlanetListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09ABD76C2CB9607D00960B44 /* PlanetListView.swift */; };
 		09ABD76F2CB960D600960B44 /* PlanetListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09ABD76E2CB960D600960B44 /* PlanetListViewModel.swift */; };
 		09ABD7782CB9818D00960B44 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 09ABD7712CB9818D00960B44 /* Localizable.strings */; };
@@ -43,6 +43,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		090F059D2CCFADA900262FE0 /* Network */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Network; sourceTree = "<group>"; };
+		090F059E2CCFADA900262FE0 /* Models */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Models; sourceTree = "<group>"; };
+		090F059F2CCFADA900262FE0 /* Utilities */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Utilities; sourceTree = "<group>"; };
 		09ABD6D42CB870A900960B44 /* PlanetList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlanetList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		09ABD6D72CB870A900960B44 /* PlanetListApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetListApp.swift; sourceTree = "<group>"; };
 		09ABD6E02CB870AA00960B44 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
@@ -51,9 +54,6 @@
 		09ABD7432CB93D0300960B44 /* Sources */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Sources; path = Packages/Networking/Sources; sourceTree = "<group>"; };
 		09ABD7442CB93D0300960B44 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = Packages/Networking/README.md; sourceTree = "<group>"; };
 		09ABD7632CB95CC300960B44 /* PlanetRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetRepository.swift; sourceTree = "<group>"; };
-		09ABD7662CB95FE700960B44 /* Networking */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Networking; sourceTree = "<group>"; };
-		09ABD7672CB95FE700960B44 /* Models */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Models; sourceTree = "<group>"; };
-		09ABD7682CB95FE700960B44 /* Utilities */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Utilities; sourceTree = "<group>"; };
 		09ABD76C2CB9607D00960B44 /* PlanetListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetListView.swift; sourceTree = "<group>"; };
 		09ABD76E2CB960D600960B44 /* PlanetListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetListViewModel.swift; sourceTree = "<group>"; };
 		09ABD7722CB9818D00960B44 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -75,8 +75,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				090F057D2CCFA94E00262FE0 /* Networking in Frameworks */,
 				09ABD75B2CB93F0F00960B44 /* Models in Frameworks */,
-				09ABD7552CB93ED400960B44 /* Networking in Frameworks */,
 				09ABD7572CB93ED400960B44 /* Utilities in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -91,10 +91,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		090F059C2CCFADA900262FE0 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				090F059D2CCFADA900262FE0 /* Network */,
+				090F059E2CCFADA900262FE0 /* Models */,
+				090F059F2CCFADA900262FE0 /* Utilities */,
+			);
+			path = Packages;
+			sourceTree = "<group>";
+		};
 		09ABD6CB2CB870A900960B44 = {
 			isa = PBXGroup;
 			children = (
-				09ABD7652CB95FE700960B44 /* Packages */,
+				090F059C2CCFADA900262FE0 /* Packages */,
 				09ABD6D62CB870A900960B44 /* PlanetList */,
 				09ABD6EC2CB870AA00960B44 /* PlanetListTests */,
 				09ABD6D52CB870A900960B44 /* Products */,
@@ -186,17 +196,6 @@
 			path = View;
 			sourceTree = "<group>";
 		};
-		09ABD7652CB95FE700960B44 /* Packages */ = {
-			isa = PBXGroup;
-			children = (
-				09ABD7662CB95FE700960B44 /* Networking */,
-				09ABD7672CB95FE700960B44 /* Models */,
-				09ABD7682CB95FE700960B44 /* Utilities */,
-			);
-			name = Packages;
-			path = PlanetList/Packages;
-			sourceTree = "<group>";
-		};
 		09ABD7702CB9818D00960B44 /* SupportFile */ = {
 			isa = PBXGroup;
 			children = (
@@ -236,9 +235,9 @@
 			);
 			name = PlanetList;
 			packageProductDependencies = (
-				09ABD7542CB93ED400960B44 /* Networking */,
 				09ABD7562CB93ED400960B44 /* Utilities */,
 				09ABD75A2CB93F0F00960B44 /* Models */,
+				090F057C2CCFA94E00262FE0 /* Networking */,
 			);
 			productName = PlanetList;
 			productReference = 09ABD6D42CB870A900960B44 /* PlanetList.app */;
@@ -307,10 +306,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				090F05A02CCFADA900262FE0 /* Network in Resources */,
 				09ABD7782CB9818D00960B44 /* Localizable.strings in Resources */,
-				09ABD7692CB95FE700960B44 /* Networking in Resources */,
-				09ABD76A2CB95FE700960B44 /* Models in Resources */,
-				09ABD76B2CB95FE700960B44 /* Utilities in Resources */,
+				090F05A12CCFADA900262FE0 /* Models in Resources */,
+				090F05A22CCFADA900262FE0 /* Utilities in Resources */,
 				09ABD7942CBD301600960B44 /* PlanetData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -622,7 +621,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		09ABD7542CB93ED400960B44 /* Networking */ = {
+		090F057C2CCFA94E00262FE0 /* Networking */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = Networking;
 		};
